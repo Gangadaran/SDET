@@ -1,12 +1,14 @@
 package week2;
 
-public class FindNumber2ArePresentInArray {
+import org.junit.Test;
 
+public class FindNumber2ArePresentInArray {
+    @Test
 	public void example() {
 		int[] arr = { 1, 2, 3, 4, 5 };
 		int x = 2;
 		int y = 3;
-		findNos(arr, x, y);
+		System.out.println(findNos(arr, x, y));
 	}
 
 	public boolean findNos(int[] arr, int x, int y) {
@@ -18,7 +20,7 @@ public class FindNumber2ArePresentInArray {
 				check = true;
 
 			}
-			if (arr[i] == 7) {
+			if (arr[i] == y) {
 				check1 = true;
 
 			}
