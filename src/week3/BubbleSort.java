@@ -2,6 +2,8 @@ package week3;
 
 
 
+import java.util.Arrays;
+
 import org.junit.Test;
 
 public class BubbleSort {
@@ -25,6 +27,7 @@ public class BubbleSort {
 		            int temp = nums[j];
 		            nums[j] = nums[j + 1];
 		            nums[j + 1] = temp;
+		            System.out.println(Arrays.toString(nums));
 		        }
 		    }
 		}
