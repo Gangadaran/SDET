@@ -1,6 +1,8 @@
-package week4;
+package learnLinkedListAndDoublyLinedList;
 
 import java.util.ArrayList;
+
+import learnLinkedListAndDoublyLinedList.LearnDoublyLinkedList;
 
 public class Demo {
 	

@@ -1,4 +1,4 @@
-package week4;
+package learnLinkedListAndDoublyLinedList;
 
 public class LearnLinkedList {
 	
